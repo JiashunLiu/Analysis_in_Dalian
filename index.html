@@ -55,6 +55,28 @@
         .location {
             font-size: 1.4em;
         }
+        .footer-container {
+            position: relative;
+            text-align: center;
+            padding: 20px 80px;  /* 左右留出空间给图片 */
+            min-height: 100px;
+        }
+
+        .footer-image {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);  /* 垂直居中 */
+        }
+
+        .footer-image.left {
+            left: 20px;
+        }
+
+        .footer-image.right {
+            right: 20px;
+        }
     </style>
 </head>
 <body>
@@ -358,8 +380,15 @@
 
         
     </section>
-        
 
+    <footer>
+        <div class="footer-container">
+            <img src="https://jiashunliu.github.io/Analysis_in_Dalian/symbol_dut.png" alt="left image" class="footer-image left">
+            <p>&copy; 2026 Analysis of PDEs in Dalian Organizing Committee. All rights reserved.</p>
+            <img src="https://jiashunliu.github.io/Analysis_in_Dalian/symbol_som.png" alt="right image" class="footer-image right">
+        </div>
+    </footer>
+    
     <footer>
         <p>&copy; 2026 Analysis of PDEs in Dalian Organizing Committee. All rights reserved.</p>
     </footer>
@@ -372,6 +401,7 @@
 
 
  
+
 
 
 

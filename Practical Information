@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop: Analysis of PDEs in Dalian</title>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            <!-- background: linear-gradient(to right, #0056b3, #007bff); -->
+            <!-- background: url('/Analysis_in_Dalian/lake.jpg') center center / cover no-repeat; -->
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        .dates {
+            font-size: 1.8em;
+            color: #ffcc00;
+        }
+        .location {
+            font-size: 1.4em;
+        }
+        .footer-container {
+            position: relative;
+            text-align: center;
+            padding: 20px 80px;  /* 左右留出空间给图片 */
+            min-height: 100px;
+        }
+
+        .footer-image {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);  /* 垂直居中 */
+        }
+
+        .footer-image.left {
+            left: 230px;
+        }
+
+        .footer-image.right {
+            right: 230px;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background-color: #003366 !important; color: white; text-align: center; padding: 100px 20px;">
+        <h1>Workshop: Analysis of PDEs in Dalian</h1>
+        <p class="dates">May 25-29, 2026</p>
+        <p class="location">Dalian University of Technology, Dalian, China</p>
+    </header>
+
+    <section id="Introduction">
+    <!--The Workshop "Analysis of PDEs in Dalian", hosted by Dalian University of Technology, 
+    will bring together young researchers and leading experts in the field of analysis and partial differential equations, such as fluid mechanics,
+    water-wave problems, kinetic theory and Hamiltonian PDEs.
+    We aim at promoting academic exchanges and collaborations among early-career scientists and experts, 
+    offering a dedicated platform to discuss recent advances, emerging challenges, and innovative analysis methods in PDE theory.-->
+
+    The Workshop "Analysis of PDEs in Dalian", hosted by Dalian University of Technology, 
+    will bring together leading experts and young researchers in the analysis of partial differential equations, 
+    with particular focus on fluid mechanics, water-wave problems, kinetic theory, and Hamiltonian PDEs.
+    The workshop aims to foster academic exchange and collaboration between early-career researchers and established scholars, 
+    providing a dedicated platform to discuss the latest advances, emerging challenges, and innovative analytical techniques in PDE theory.
+    </section>
+
+    
+    <section id="Confirmed speakers">
+        <h2>Confirmed speakers</h2>
+        <ul>
+            <li><a href="https://sites.google.com/view/dalonsoo">Alonso-Orán, Diego</a>
+                &nbsp(Universidad de La Laguna, Spain)</li>
+            
+            <li><a href="https://en.westlake.edu.cn/faculty/alexey-cheskidov.html">Cheskidov, Alexey</a>
+                &nbsp(Westlake Univerisity, China)</li>
+            
+            <li><a href="https://perso.math.u-pem.fr/danchin.raphael/publications.html">Danchin, Raphaël</a> 
+                &nbsp(Université Paris-Est Créteil, France)</li>
+            
+            <li><a href="https://math.univ-lyon1.fr/~fanelli/"> Fanelli, Francesco</a> 
+                &nbsp(Basque Center for Applied Mathematics, Spain)</li>
+            
+            <li><a href="https://personal.us.es/fgancedo/"> Gancedo, Francisco</a>
+                &nbsp(University of Seville, Spain)</li>
+            
+            <li><a href="https://sites.google.com/view/zihuihe">He, Zihui</a>
+                &nbsp(何子慧, Bielefeld University, Germany)</li>
+            
+            <li><a href="https://sites.google.com/view/injeejeong">Jeong, In-Jee</a>
+                &nbsp(Seoul National University, Korea)</li>
+
+            <li><a href="https://homepages.uni-regensburg.de/~knp32048/">Knopf, Patrik</a>
+                &nbsp(University of Regensburg, Germany)</li>
+            
+            <li><a href="https://iana.math.kit.edu/english/iana1/63_96.php">Kunstmann, Peer</a>
+                &nbsp(Karlsruhe Institute of Technology, Germany)</li>
+            
+            <li><a href="http://homepage.amss.ac.cn/research/homePage/6de1e851b49240209147ea4b60ba23d0/myHomePage.html">Li, Te</a>
+                &nbsp(李特, Academy of Mathematics and Systems Science, China)</li>
+            
+            <li><a href="https://sites.google.com/view/jemassetti">Massetti, Jessica</a> 
+                &nbsp(Università Roma Tor Vergata, Italy)</li>
+            
+            <li><a href="https://iana.math.kit.edu/english/iana2/iana2_138.php">Plum, Michael</a> 
+                &nbsp(Karlsruhe Institute of Technology, Germany)</li>
+            
+            <li><a href="https://en.www.math.fau.de/analysis-2/prof-dr-emil-wiedemann/">Wiedemann, Emil</a>
+                &nbsp(Friedrich-Alexander-University, Germany)</li>
+            
+            <li><a href="https://sites.lsa.umich.edu/sijue/">Wu, Sijue</a>
+                &nbsp(邬似珏, University of Michigan, USA)</li>
+
+            <li><a href="https://blog.nus.edu.sg/yyao/">Yao, Yao</a>
+                &nbsp(姚珧, National University of Singapore, Singapore)</li>
+            
+            <li><a href="https://qy47.github.io/">Yuan, Qian</a>
+                &nbsp(袁谦, Academy of Mathematics and Systems Science, China)</li>
+        </ul>
+    </section>
+
+
+   
+    
+    <section id="Preliminary programme">
+        <h2>Preliminary programme</h2>
+        This workshop is planned to consist of
+        <ul>
+            <li>3 minicourses (with two 1.5-hour lectures each)</li>
+            <li>14 scientific talks (with 45-minute talk each)</li>
+            <li>1 poster-session</li>
+        </ul>
+        
+        <table border="1" cellspacing="0">
+            <tr>
+                <td></td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+        
+            <tr>
+                <td>8:30-9:15</td>
+                <td rowspan="2">Minicourse 1<br><em>Kunstmann</em></td>
+                <td rowspan="2">Minicourse 2<br><em>Massetti</em></td>
+                <td>Talk 7</td>
+                <td rowspan="2">Minicourse 3<br><em>Fanelli</em></td>
+                <td>Talk 11</td>
+            </tr>
+            
+            <tr>
+                <td>9:15-10:00</td>
+                <td>Poster-flash</td>
+                <td>Talk 12</td>
+            </tr>
+                           
+            <tr>
+                <td>10:00-10:30</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+                <td rowspan="3">Poster-session</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+            </tr>
+        
+            <tr>
+                <td>10:30-11:15</td>
+                <td>Talk 1</td>
+                <td>Talk 4</td>
+                <td>Talk 8</td>
+                <td>Talk 13</td>
+            </tr>
+        
+            <tr>
+                <td>11:20-12:05</td>
+                <td>Talk 2</td>
+                <td>Talk 5</td>
+                <td>Talk 9</td>
+                <td>Talk 14</td>
+            </tr>
+        
+            <tr>
+                <td>12:00-14:00</td>
+                <td style="background-color:#fff3cd;">Lunch</td>
+                <td style="background-color:#fff3cd;">Lunch</td>
+                <td rowspan="5">Free Afternoon</td>
+                <td style="background-color:#fff3cd;">Lunch</td>
+                <td rowspan="5">Departure</td>
+            </tr>
+        
+            <tr>
+                <td>14:00-14:45</td>
+                <td rowspan="2">Minicourse 1<br><em>Kunstmann</em></td>
+                <td rowspan="2">Minicourse 2<br><em>Massetti</em></td>
+                <td rowspan="2">Minicourse 3<br><em>Fanelli</em></td>
+            </tr>
+        
+            <tr>
+                <td>14:45-15:30</td>
+            </tr>
+        
+            <tr>
+                <td>15:30-16:00</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+                <td style="background-color:#fff3cd;">Coffee</td>
+            </tr>
+        
+            <tr>
+                <td>16:00-16:45</td>
+                <td>Talk 3</td>
+                <td>Talk 6</td>
+                <td>Talk 10</td>
+            </tr>
+        
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="background-color:#fff3cd;">Conference<br>Dinner</td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Registration">
+            <h2>Registration</h2>
+            <!--Registration in the workshop is free but obligatory. 
+            Please send the following documents to Mr. Jiashun Liu (<u>liujiashun(at)mail.dlut.edu.cn</u>) for registration:-->
+
+            Registration for the workshop is free but required. 
+            To complete your registration, please send the following documents to Mr. Jiashun Liu at <u>liujiashun(at)mail.dlut.edu.cn</u>
+            <ul>
+                <li>CV</li>
+                <li>motivation letter</li>
+                <li>expected arrival and departure times</li>               
+                <li>recommendation letter to be sent directly from the supervisor/mentor</li>
+            </ul>
+            The deadline for registration is <strong>March 15th, 2026</strong>. 
+            All the local expenses of early-career participants will be covered by Dalian University of Technology, including accommodation and meals.
+            Early registration is strongly recommended. You will receive a confirmation email upon successful registration.
+            
+            <br><br>
+            
+            We warmly welcome early-career participants to present posters during the poster session.
+            Those interested are kindly requested to inform us by email at <u>liujiashun(at)mail.dlut.edu.cn</u> before <strong>March 15th, 2026</strong>
+            <ul>
+                <li>title and abstract of the proposed presentation</li>
+            </ul>
+
+            <br>
+            
+            <div style="color: #999;">
+            Participants who are interested in applying for further financial support (besides the accommodation and meals) are recommended to present posters in the poster session; and please kindly inform us by email at <u>liujiashun(at)mail.dlut.edu.cn</u>
+
+            <ul>
+                <li>title and abstract of the proposed presentation</li>
+                <li>requested amount of financial support</li>
+            </ul>
+            
+            The deadline for the application for financial support is <strong>January 31st, 2026</strong>.
+            </div>
+             
+        </section>
+ 
+
+
+
+
+      <section id="Information">
+            <h2>Practical Information</h2> 
+            <ul>
+                <li> 
+                    <a href="https://wikitravel.org/en/Dalian">Dalian - Wikitravel</a> <br>
+                    Dalian (大连; Dàlián) is the second largest city in Liaoning Province, Dongbei (Northeast), China and the largest port in northern China as well as a major destination for Chinese tourists.
+                    <br><br>
+                    </li>
+                
+                <li>  
+                    <a href="https://en.dlut.edu.cn/index.htm">  Dalian University of Technology  </a> <br>
+                    <a href="https://en.dlut.edu.cn/Campus_Life/Maps___Transportation.htm">   Campus Map </a> (Our workshop takes place at the main campus in Lingshui County.)  <br>  <br>
+                </li>
+                
+                <li>Accommodation  <br>
+                    Guest participants will be accomodated at either of the following two hotels <br>
+                    <i>Hotel 1</i>&nbsp; Dalian University of Technology International Convention Center (大连理工国际会议中心,
+                    <a href="https://www.trip.com/hotels/dalian-hotel-detail-1654204/dalian-university-of-technology-international-convention-center/">
+                        Trip.com-DUTICC </a>)<br>
+                    <i>Hotel 2</i>&nbsp; Dalian Haichuang Technology Communication Center (海创大连科技交流中心,
+                        <a href="https://en.hichancedalian.cn/"> Hi Chance Dalian Science & Technology Center  </a>)  <br>
+                    The receptions are 24 hours open. <br> <br>
+               </li>
+                
+                <li>From Airport to Hotels: around 15 km <br>
+                    <i>Option 1</i>&nbsp; By taxi<br>
+                    A taxi from Dalian Zhoushuizi International Airport to one of the above two hotels costs about 30 RMB(~3.72 EUR).<br>  <br>
+                    
+                    <i>Option 2</i>&nbsp; By metro<br>
+                    Take Metro Line 2 from Dalian Zhoushuizi International Airport (机场站) to Xi'an Road Station (西安路站)  <br>
+                             transfer to Metro Line 1, from Xi'an Road Station to Dalian Maritime University Station (海事大学站)  <br>
+                             and then walk. <br>
+                    Please check <a href="https://www.dltransgrp.com/portal/indexShow.do">here</a> for possible changes and updates.
+                    <br><br>
+                </li> 
+
+                <li>Useful apps to download on your phone: <br>
+                    WeChat (微信), Alipay (支付宝), and Amap (高德地图).<br>
+                    You can link your bank card to WeChat or Alipay to make payments in China - remember to arrange for a Wi-Fi connection in advance!
+                    <br>
+                </li> 
+                
+            </ul> 
+             
+            <br>
+        </section>
+
+
+    
+    <section id="Footnote">
+        <strong>Contact</strong> <br>
+         Having questions? Join WeChat Group <u>Workshop Analysis of PDEs Dalian</u> to ask!<br><br>
+
+        
+        <strong>Local organizing team</strong>
+        <ul>
+            <li><a href="https://faculty.dlut.edu.cn/liao/en/index.htm">Liao, Xian</a>
+                &nbsp(廖娴, liao(at)dlut.edu.cn)</li>
+            <li><a href="https://jiashun.precisea.uk/">Liu, Jiashun</a>
+                &nbsp(刘家舜, liujiashun(at)mail.dlut.edu.cn)</li>
+            <li><a href="https://faculty.dlut.edu.cn/zhao1899/en/index.htm">Zhao, Lei</a>
+                &nbsp(赵磊, zhao1899(at)dlut.edu.cn)</li>
+        </ul>
+        
+        <strong>Venue</strong>
+        <ul>
+            中国·辽宁省大连市甘井子区凌工路 2 号
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14110972.386867847!2d107.16605552433899!3d30.292307423302418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x358f66a9198f4bad%3A0xf9868b7b97707fbe!2z5aSn6L-e55CG5bel5aSn5a2m!5e0!3m2!1szh-CN!2shk!4v1768310148305!5m2!1szh-CN!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+    <!-- <img src="https://jiashunliu.github.io/Analysis_in_Dalian/lake.jpg"/> -->
+
+        
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <img src="https://jiashunliu.github.io/Analysis_in_Dalian/symbol_dut.png" alt="left image" class="footer-image left">
+            <p style="font-size: 20px;">&copy; 2026 Analysis of PDEs in Dalian Organizing Committee.<br> All rights reserved.</p>
+            <img src="https://jiashunliu.github.io/Analysis_in_Dalian/symbol_som_2.png" alt="right image" class="footer-image right">
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>

@@ -11,6 +11,15 @@ body {
             line-height: 1.6;
 	font-size: 20px; /* 增加基础字体大小 */
         }
+main {
+            text-align: center;  /* 让内部图片水平居中 */
+        }
+.poster {
+            width: 80%;          /* 放大图片：占父容器宽度的80%，可调 */
+            max-width: 1000px;   /* 限制最大宽度，避免过大 */
+            height: auto;        /* 保持原始比例不变形 */
+            display: inline-block;
+        }
 </style> 
 
 <head>
@@ -34,7 +43,7 @@ body {
     </header>
 
     <main>
-        <img class="footer-logo" src="https://jiashunliu.github.io/Analysis_in_Dalian/poster.jpg" alt="poster">
+        <img class="poster" src="https://jiashunliu.github.io/Analysis_in_Dalian/poster.jpg" alt="poster">
     </main>
 
     <footer class="site-footer">
